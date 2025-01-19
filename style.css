@@ -92,7 +92,7 @@ body {
     }
 
     .logo {
-        height: 80px;
+       max-width: 5%;
     }
 
     .display-header {
