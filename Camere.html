@@ -21,54 +21,54 @@
 
 
 <body class="bg-success">
-
-
     <header class="display-header bg-dark">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 d-flex justify-content-center">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
         </nav>
+        
     </header>
     <header>
         <div id="Carusel" class="carousel slide carousel-fade">
-            <div class="carousel-item">
-                <img src="pensiunea-caprioara-2.jpg" class="d-block w-100" alt="O pensiune din lemn ninsa">
-            </div>
             <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="pensiunea-caprioara-2.jpg" class="d-block w-100" alt="O pensiune din lemn ninsa">
+                 </div>
                 <div class="carousel-item active">
                     <img src="breakfast2.jpg" class="d-block w-100"
                         alt="poza de sus la un mic dejun cu cafea, oua si paine">
@@ -78,9 +78,6 @@
                 </div>
                 <div class="carousel-item">
                     <img src="blue-cool.jpg" class="d-block w-100" alt="O piscina exterioara albastra">
-                </div>
-                <div class="carousel-item">
-                    <img src="pensiunea-caprioara-2.jpg" class="d-block w-100" alt="O pensiune din lemn ninsa">
                 </div>
                 <div class="carousel-item">
                     <img src="bathroom10.jpg" class="d-block w-100" alt="O femeie de servici care curata o baie">
@@ -103,96 +100,110 @@
         gratuit la Wi-Fi. Unele unități oferă balcon cu vedere panoramică, perfect pentru momente de relaxare.
         Descoperiți liniștea și intimitatea unui loc în care confortul se îmbină cu frumusețea naturii!
     </p>
-    <div class="linie">
-        <div class="coloane">
-            <div class="card bg-dark">
-                <h3 class="text-light">Cameră single</h3>
-                <img src="camera-single.jpg" alt="camera cu pat matrimonial si veiozele aprinse">
-                <h4 class="text-light">Pret: 450 RON</h4>
-                <p>Perfectă pentru călătorii solo sau pentru cei care caută intimitate și liniște, camera single oferă
-                    un spațiu cochet, bine organizat și dotat cu toate facilitățile necesare pentru un sejur
-                    confortabil. Camera include un pat confortabil, ideal pentru o odihnă deplină, birou de lucru,
-                    televizor, acces la Wi-Fi gratuit și baie privată modernă, echipată cu articole de toaletă premium.
-                    Este alegerea ideală pentru o ședere practică, dar plină de rafinament.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card bg-dark">
+                    <h3 class="text-light">Cameră single</h3>
+                    <img src="camera-single.jpg" alt="camera cu pat matrimonial si veiozele aprinse">
+                    <h4 class="text-light">Pret: 450 RON</h4>
+                    <p>Perfectă pentru călătorii solo sau pentru cei care caută intimitate și liniște, camera single
+                        oferă
+                        un spațiu cochet, bine organizat și dotat cu toate facilitățile necesare pentru un sejur
+                        confortabil. Camera include un pat confortabil, ideal pentru o odihnă deplină, birou de lucru,
+                        televizor, acces la Wi-Fi gratuit și baie privată modernă, echipată cu articole de toaletă
+                        premium.
+                        Este alegerea ideală pentru o ședere practică, dar plină de rafinament.</p>
                     <button type="button" class="btn btn-primary position-relative">
                         2 camere disponibile
-                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                          <span class="visually-hidden">New alerts</span>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
                         </span>
-                      </button>
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class="coloane">
-            <div class="card bg-dark">
-                <h3 class="text-light">Cameră double</h3>
-                <img src="camera-double.jpg" alt="camera double cu peretii albastrii">
-                <h4 class="text-light">Pret: 600 RON </h4>
-                <p>Camerele duble sunt concepute pentru cupluri sau prieteni care doresc să se bucure de un sejur
-                    relaxant într-un cadru primitor. Acestea sunt spațioase și luminoase, oferind un pat matrimonial
-                    generos sau două paturi twin, în funcție de preferințe. Fiecare cameră este dotată cu mobilier
-                    elegant, televizor, minibar, aer condiționat, Wi-Fi gratuit și o baie modernă, prevăzută cu duș sau
-                    cadă, pentru momente de răsfăț. Atmosfera caldă și designul plăcut fac din camera dublă un spațiu
-                    perfect pentru relaxare și reconectare.</p>
+            <div class="col-md-4 col-12">
+                <div class="card bg-dark">
+                    <h3 class="text-light">Cameră double</h3>
+                    <img src="camera-double.jpg" alt="camera double cu peretii albastrii">
+                    <h4 class="text-light">Pret: 600 RON </h4>
+                    <p>Camerele duble sunt concepute pentru cupluri sau prieteni care doresc să se bucure de un sejur
+                        relaxant într-un cadru primitor. Acestea sunt spațioase și luminoase, oferind un pat matrimonial
+                        generos sau două paturi twin, în funcție de preferințe. Fiecare cameră este dotată cu mobilier
+                        elegant, televizor, minibar, aer condiționat, Wi-Fi gratuit și o baie modernă, prevăzută cu duș
+                        sau
+                        cadă, pentru momente de răsfăț. Atmosfera caldă și designul plăcut fac din camera dublă un
+                        spațiu
+                        perfect pentru relaxare și reconectare.</p>
                     <button type="button" class="btn btn-primary position-relative">
                         3 camere disponibile
-                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                          <span class="visually-hidden">New alerts</span>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
                         </span>
-                      </button>
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class="coloane">
-            <div class="card bg-dark">
-                <h3 class="text-light">Apartament</h3>
-                <img src="apartament.jpg" alt="livingul unui apartament">
-                <h4 class="text-light">Pret: 750 RON </h4>
-                <p>Pentru cei care doresc un plus de spațiu și confort, apartamentele noastre reprezintă alegerea
-                    ideală. Acestea sunt formate dintr-un dormitor elegant, dotat cu pat matrimonial, și o zonă de
-                    living separată, perfectă pentru relaxare sau pentru a primi oaspeți. Apartamentele dispun de
-                    facilități premium, precum televizor cu ecran plat, minibar, aer condiționat și Wi-Fi gratuit. Baia
-                    este spațioasă, cu finisaje de lux, articole de toaletă premium și, în unele cazuri, cadă cu
-                    hidromasaj. Apartamentul este ideal pentru familii, grupuri mici sau pentru cei care doresc să se
-                    bucure de un sejur într-un spațiu exclusivist.</p>
+            <div class="col-md-4 col-12">
+                <div class="card bg-dark">
+                    <h3 class="text-light">Apartament</h3>
+                    <img src="apartament.jpg" alt="livingul unui apartament">
+                    <h4 class="text-light">Pret: 750 RON </h4>
+                    <p>Pentru cei care doresc un plus de spațiu și confort, apartamentele noastre reprezintă alegerea
+                        ideală. Acestea sunt formate dintr-un dormitor elegant, dotat cu pat matrimonial, și o zonă de
+                        living separată, perfectă pentru relaxare sau pentru a primi oaspeți. Apartamentele dispun de
+                        facilități premium, precum televizor cu ecran plat, minibar, aer condiționat și Wi-Fi gratuit.
+                        Baia
+                        este spațioasă, cu finisaje de lux, articole de toaletă premium și, în unele cazuri, cadă cu
+                        hidromasaj. Apartamentul este ideal pentru familii, grupuri mici sau pentru cei care doresc să
+                        se
+                        bucure de un sejur într-un spațiu exclusivist.</p>
                     <button type="button" class="btn btn-primary position-relative">
-                       5 apartamente disponibile
-                        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
-                          <span class="visually-hidden">New alerts</span>
+                        5 apartamente disponibile
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="visually-hidden">New alerts</span>
                         </span>
-                      </button>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-
     <div>
         <h2>Gazduirea animalelor</h2>
-        <p>Taxele de găzduire a animalelor pentru  pensiune sunt stabilite în funcție de mai mulți factori, inclusiv
+        <p>Taxele de găzduire a animalelor pentru pensiune sunt stabilite în funcție de mai mulți factori, inclusiv
             tipul și mărimea animalului, durata șederii și serviciile suplimentare oferite. </p>
-        
-            <h3>Tarife câini </h3>
-                <ol>
-                    <li>Câini mici (sub 10 kg): 25 - 40 lei/zi</li>
-                </ol>
-                <ol>
-                    <li>Câini medii (10-25 kg): 40 - 60 lei/zi</li>
-                </ol>
-                <ol>
-                    <li>Câini mari (peste 25 kg): 60 - 80 lei/zi</li>
-                </ol>
-                <h3>Tarife pisici</h3>
-                <ol>
-                    <li>Pisici: 25 - 40 lei/zi</li>
-                </ol>
 
-                <h2>Roomservice</h2>
-                <p>La Pensiunea Aurora, room service-ul aduce confortul și răsfățul direct în camera ta. Bucură-te de preparate proaspete și savuroase, de la mic dejunuri energizante până la cine rafinate, toate pregătite cu grijă din ingrediente locale. Comenzile sunt livrate rapid, cu atenție la detalii, iar meniul poate fi adaptat preferințelor tale. Indiferent de moment, transformăm fiecare masă într-o experiență relaxantă și plină de savoare.</p>
-                
-            
+        <h3>Tarife câini </h3>
+        <ol>
+            <li>Câini mici (sub 10 kg): 25 - 40 lei/zi</li>
+        </ol>
+        <ol>
+            <li>Câini medii (10-25 kg): 40 - 60 lei/zi</li>
+        </ol>
+        <ol>
+            <li>Câini mari (peste 25 kg): 60 - 80 lei/zi</li>
+        </ol>
+        <h3>Tarife pisici</h3>
+        <ol>
+            <li>Pisici: 25 - 40 lei/zi</li>
+        </ol>
+
+        <h2>Roomservice</h2>
+        <p>La Pensiunea Aurora, room service-ul aduce confortul și răsfățul direct în camera ta. Bucură-te de preparate
+            proaspete și savuroase, de la mic dejunuri energizante până la cine rafinate, toate pregătite cu grijă din
+            ingrediente locale. Comenzile sunt livrate rapid, cu atenție la detalii, iar meniul poate fi adaptat
+            preferințelor tale. Indiferent de moment, transformăm fiecare masă într-o experiență relaxantă și plină de
+            savoare.</p>
+
+
     </div>
     <footer class="bg-dark display-footer">
         <h3 class="text-light">Copyright by 2025 Aurora, all rights reserved</h3>
         <h3 class="text-light">Contact: Telefon: +40-740-256-068</h3>
         <a href="https://instagram.com" target="_blank"><img class="smol" src="instagram.png"
-                    alt="logoul aplicatiei instagram"></a>
+                alt="logoul aplicatiei instagram"></a>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
