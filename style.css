@@ -1,7 +1,6 @@
- body {
-        background: rgb(6, 91, 67);
-        font-family: 'Playfair Display', serif;
-    }
+body {
+    font-family: 'Playfair Display', serif;
+}
 
     h1 {
         color: green;
@@ -42,7 +41,6 @@
 
     li {
         display: flex;
-        padding: 10px;
 
     }
 
@@ -111,15 +109,11 @@
         align-items: flex-end;
     }
 
-    .culoare {
-        background-color: gray;
-    }
     .linie {
         display: flex;
     }
     .coloane {
         width: 33.3%;
-        background: gray;
         margin: 15px;
     }
     .card {
@@ -139,7 +133,6 @@
     }
     .coloane-foto {
         width: 50%;
-        background: gray;
         margin: 15px;
     }
     .aranjat {
